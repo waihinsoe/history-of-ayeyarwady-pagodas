@@ -38,8 +38,8 @@ export default function Login() {
 
     const isDisabled = form.name.length > 0 && form.password.length > 0;
     return (
-        <div className="grid place-items-center h-screen">
-            <Card className="w-[350px]">
+        <div className="grid place-items-center h-screen p-4 bg-gray-100">
+            <Card className="w-full max-w-[350px]">
                 <CardHeader>
                     <CardTitle className="text-center text-xl">
                         Login Account
