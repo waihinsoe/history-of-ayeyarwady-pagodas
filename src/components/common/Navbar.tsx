@@ -10,9 +10,9 @@ export default function Navbar() {
 
     return (
         <div className="bg-primary p-5 sticky top-0 z-50 ">
-            <div className="max-w-6xl mx-auto flex  justify-between">
+            <div className="max-w-6xl mx-auto flex  justify-between items-center">
                 <h1
-                    className="scroll-m-20 text-2xl font-extrabold tracking-tight  text-white cursor-pointer"
+                    className="scroll-m-20 text-lg lg:text-2xl font-extrabold tracking-tight  text-white cursor-pointer"
                     onClick={() => navigate("/")}
                 >
                     History of Pagodas

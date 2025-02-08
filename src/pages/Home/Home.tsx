@@ -48,7 +48,7 @@ export default function Home() {
         <div>
             <Navbar />
             <div className=" max-w-6xl mx-auto py-10 flex flex-col items-center px-5">
-                <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl self-start mb-10">
+                <h1 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-4xl self-start mb-10">
                     Popular
                 </h1>
                 <Carousel
