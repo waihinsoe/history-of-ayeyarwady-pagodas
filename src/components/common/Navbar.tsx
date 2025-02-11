@@ -1,25 +1,26 @@
 import { useNavigate } from "react-router";
-import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
     const navigate = useNavigate();
-    const handleLogout = () => {
-        localStorage.removeItem("user");
-        return navigate("/login");
-    };
+
+    // const handleLogout = () => {
+    //     localStorage.removeItem("user");
+    //     return navigate("/login");
+    // };
 
     return (
-        <div className="bg-primary p-5 sticky top-0 z-50 ">
+        <div className="bg-primary p-5  ">
             <div className="max-w-6xl mx-auto flex  justify-between items-center">
                 <h1
                     className="scroll-m-20 text-lg lg:text-2xl font-extrabold tracking-tight  text-white cursor-pointer"
                     onClick={() => navigate("/")}
                 >
-                    History of Pagodas
+                    History Of Ayeyarwady Pagodas
                 </h1>
-                <Button variant={"outline"} onClick={handleLogout}>
+
+                {/* <Button variant={"outline"} onClick={handleLogout}>
                     Logout
-                </Button>
+                </Button> */}
             </div>
         </div>
     );
